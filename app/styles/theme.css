@@ -1,18 +1,14 @@
 :root {
   --oui-font-family: 'Ubuntu', sans-serif;
-  --oui-font-size-base: 12px;
+  --oui-font-size-base: 16px;
 
-  /* brand colors inspired by logo */
-  --oui-color-primary: 200 100 255; /* violet-purple */
+  /* colors */
+  --oui-color-primary: 200 100 255;
   --oui-color-primary-light: 220 140 255;
   --oui-color-primary-darken: 130 60 200;
   --oui-color-primary-contrast: 255 255 255;
 
-  --oui-color-accent: 255 120 40; /* orange accent */
-  --oui-color-accent-light: 255 160 80;
-  --oui-color-accent-darken: 200 70 10;
-
-  --oui-color-link: 120 150 255; /* blue link */
+  --oui-color-link: 120 150 255;
   --oui-color-link-light: 150 180 255;
 
   --oui-color-secondary: 240 235 255;
@@ -20,38 +16,66 @@
   --oui-color-quaternary: 65 55 80;
 
   --oui-color-danger: 255 70 90;
+  --oui-color-danger-light: 250 167 188;
+  --oui-color-danger-darken: 237 72 122;
+  --oui-color-danger-contrast: 255 255 255;
+
   --oui-color-success: 70 255 180;
+  --oui-color-success-light: 101 240 194;
+  --oui-color-success-darken: 0 161 120;
+  --oui-color-success-contrast: 255 255 255;
+
   --oui-color-warning: 255 206 90;
+  --oui-color-warning-light: 255 229 133;
+  --oui-color-warning-darken: 255 152 0;
+  --oui-color-warning-contrast: 255 255 255;
 
-  /* trading colors */
-  --oui-color-trading-loss: 255 70 90;
-  --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 70 255 180;
-  --oui-color-trading-profit-contrast: 0 0 0;
-
-  /* dark background */
-  --oui-color-fill: 15 20 30; /* from logo background */
+  --oui-color-fill: 15 20 30;
   --oui-color-fill-active: 25 30 45;
 
-  /* base layers (slightly brighter steps for UI depth) */
   --oui-color-base-1: 35 40 55;
   --oui-color-base-2: 30 35 50;
   --oui-color-base-3: 25 30 45;
   --oui-color-base-4: 20 25 40;
   --oui-color-base-5: 15 20 30;
   --oui-color-base-6: 12 16 24;
+  --oui-color-base-7: 36 32 47;
+  --oui-color-base-8: 29 26 38;
+  --oui-color-base-9: 22 20 28;
+  --oui-color-base-10: 14 13 18;
+
   --oui-color-base-foreground: 245 240 255;
+  --oui-color-line: 255 255 255;
+
+  --oui-color-trading-loss: 255 70 90;
+  --oui-color-trading-loss-contrast: 255 255 255;
+  --oui-color-trading-profit: 70 255 180;
+  --oui-color-trading-profit-contrast: 0 0 0;
 
   /* gradients */
-  --oui-gradient-brand-start: 140 80 255;
-  --oui-gradient-brand-end: 255 120 40;
-  --oui-gradient-brand-angle: 45deg;
+  --oui-gradient-primary-start: 40 0 97;
+  --oui-gradient-primary-end: 189 107 237;
+
+  --oui-gradient-secondary-start: 81 42 121;
+  --oui-gradient-secondary-end: 176 132 233;
 
   --oui-gradient-success-start: 0 120 95;
   --oui-gradient-success-end: 72 255 180;
 
   --oui-gradient-danger-start: 180 40 70;
   --oui-gradient-danger-end: 255 70 90;
+
+  --oui-gradient-brand-start: 140 80 255;
+  --oui-gradient-brand-end: 255 120 40;
+  --oui-gradient-brand-stop-start: 6.62%;
+  --oui-gradient-brand-stop-end: 86.5%;
+  --oui-gradient-brand-angle: 45deg;
+
+  --oui-gradient-warning-start: 152 58 8;
+  --oui-gradient-warning-end: 255 209 70;
+
+  --oui-gradient-neutral-start: 27 29 24;
+  --oui-gradient-neutral-end: 38 41 46;
 
   /* rounded */
   --oui-rounded-sm: 2px;
@@ -71,8 +95,6 @@
 }
 
 html, body {
-  background-color: rgb(var(--oui-color-fill));
-  color: rgb(var(--oui-color-base-foreground));
-  font-family: var(--oui-font-family);
-  font-size: var(--oui-font-size-base);
+  font-family: 'Ubuntu', sans-serif !important;
+  font-size: 16px !important;
 }
