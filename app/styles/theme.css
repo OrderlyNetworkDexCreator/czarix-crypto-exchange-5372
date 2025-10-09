@@ -2,80 +2,56 @@
   --oui-font-family: 'Ubuntu', sans-serif;
   --oui-font-size-base: 12px;
 
-  /* colors */
-  --oui-color-primary: 195 120 200;
-  --oui-color-primary-light: 195 120 200;
-  --oui-color-primary-darken: 90 32 105;
-  --oui-color-primary-contrast: 255 243 230;
+  /* brand colors inspired by logo */
+  --oui-color-primary: 200 100 255; /* violet-purple */
+  --oui-color-primary-light: 220 140 255;
+  --oui-color-primary-darken: 130 60 200;
+  --oui-color-primary-contrast: 255 255 255;
 
-  --oui-color-link: 206 115 226;
-  --oui-color-link-light: 235 167 250;
+  --oui-color-accent: 255 120 40; /* orange accent */
+  --oui-color-accent-light: 255 160 80;
+  --oui-color-accent-darken: 200 70 10;
 
-  --oui-color-secondary: 255 243 230;
-  --oui-color-tertiary: 0 0 0;
-  --oui-color-quaternary: 0 0 0;
+  --oui-color-link: 120 150 255; /* blue link */
+  --oui-color-link-light: 150 180 255;
 
-  --oui-color-danger: 225 60 90;
-  --oui-color-danger-light: 245 110 130;
-  --oui-color-danger-darken: 180 40 70;
-  --oui-color-danger-contrast: 255 255 255;
+  --oui-color-secondary: 240 235 255;
+  --oui-color-tertiary: 100 90 110;
+  --oui-color-quaternary: 65 55 80;
 
-  --oui-color-success: 72 255 180;
-  --oui-color-success-light: 110 255 205;
-  --oui-color-success-darken: 0 160 120;
-  --oui-color-success-contrast: 0 0 0;
-
+  --oui-color-danger: 255 70 90;
+  --oui-color-success: 70 255 180;
   --oui-color-warning: 255 206 90;
-  --oui-color-warning-light: 255 222 140;
-  --oui-color-warning-darken: 255 170 40;
-  --oui-color-warning-contrast: 0 0 0;
 
-  --oui-color-fill: 27 20 38;
-  --oui-color-fill-active: 37 30 50;
-
-  --oui-color-base-1: 0 0 0;
-  --oui-color-base-2: 75 56 91;
-  --oui-color-base-3: 64 48 81;
-  --oui-color-base-4: 52 38 68;
-  --oui-color-base-5: 43 32 59;
-  --oui-color-base-6: 36 26 51;
-  --oui-color-base-7: 29 21 42;
-  --oui-color-base-8: 22 16 33;
-  --oui-color-base-9: 15 11 24;
-  --oui-color-base-10: 8 6 15;
-
-  --oui-color-base-foreground: 255 243 230;
-  --oui-color-line: 87 73 94;
-
-  --oui-color-trading-loss: 225 60 90;
+  /* trading colors */
+  --oui-color-trading-loss: 255 70 90;
   --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 72 255 180;
+  --oui-color-trading-profit: 70 255 180;
   --oui-color-trading-profit-contrast: 0 0 0;
 
-  /* gradients */
-  --oui-gradient-primary-start: 90 32 105;
-  --oui-gradient-primary-end: 206 115 226;
+  /* dark background */
+  --oui-color-fill: 15 20 30; /* from logo background */
+  --oui-color-fill-active: 25 30 45;
 
-  --oui-gradient-secondary-start: 45 22 55;
-  --oui-gradient-secondary-end: 138 66 160;
+  /* base layers (slightly brighter steps for UI depth) */
+  --oui-color-base-1: 35 40 55;
+  --oui-color-base-2: 30 35 50;
+  --oui-color-base-3: 25 30 45;
+  --oui-color-base-4: 20 25 40;
+  --oui-color-base-5: 15 20 30;
+  --oui-color-base-6: 12 16 24;
+  --oui-color-base-foreground: 245 240 255;
+
+  /* gradients */
+  --oui-gradient-brand-start: 140 80 255;
+  --oui-gradient-brand-end: 255 120 40;
+  --oui-gradient-brand-angle: 45deg;
 
   --oui-gradient-success-start: 0 120 95;
   --oui-gradient-success-end: 72 255 180;
 
-  --oui-gradient-danger-start: 120 25 50;
-  --oui-gradient-danger-end: 225 60 90;
-
-  --oui-gradient-brand-start: 195 120 200;
-  --oui-gradient-brand-end: 195 120 200;
-  --oui-gradient-brand-stop-start: 5%;
-  --oui-gradient-brand-stop-end: 95%;
-  --oui-gradient-brand-angle: 18deg;
-
-  --oui-gradient-warning-start: 180 120 40;
-  --oui-gradient-warning-end: 255 206 90;
-
-  --oui-gradient-neutral-start: 27 20 38;
-  --oui-gradient-neutral-end: 37 30 50;
+  --oui-gradient-danger-start: 180 40 70;
+  --oui-gradient-danger-end: 255 70 90;
 
   /* rounded */
   --oui-rounded-sm: 2px;
@@ -87,14 +63,16 @@
   --oui-rounded-full: 9999px;
 
   /* spacing */
-  --oui-spacing-xs: 23.5rem;
-  --oui-spacing-sm: 22.5rem;
-  --oui-spacing-md: 26.25rem;
-  --oui-spacing-lg: 30rem;
-  --oui-spacing-xl: 33.75rem;
+  --oui-spacing-xs: 0.25rem;
+  --oui-spacing-sm: 0.5rem;
+  --oui-spacing-md: 1rem;
+  --oui-spacing-lg: 1.5rem;
+  --oui-spacing-xl: 2rem;
 }
 
 html, body {
-  font-family: 'Ubuntu', sans-serif !important;
-  font-size: 12px !important;
+  background-color: rgb(var(--oui-color-fill));
+  color: rgb(var(--oui-color-base-foreground));
+  font-family: var(--oui-font-family);
+  font-size: var(--oui-font-size-base);
 }
