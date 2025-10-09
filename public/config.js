@@ -16,7 +16,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_APP_NAME": "Czarix Crypto Exchange",
   "VITE_APP_DESCRIPTION": "Czarix DEX is an Indonesian-base decentralized exchange for spot and perpetual trading — offering deep liquidity, low fees, and non-custodial security for crypto traders worldwide.",
   "VITE_HAS_PRIMARY_LOGO": "true",
-  "VITE_HAS_SECONDARY_LOGO": "false",
+  "VITE_HAS_SECONDARY_LOGO": "true",
   "VITE_ENABLED_MENUS": "Markets,Trading,Leaderboard,Vaults,Rewards,Portfolio",
   "VITE_CUSTOM_MENUS": "",
   "VITE_ENABLE_CAMPAIGNS": "false",

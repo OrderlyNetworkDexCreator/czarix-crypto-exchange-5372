@@ -12,8 +12,8 @@
   --oui-color-link-light: 235 167 250;
 
   --oui-color-secondary: 255 243 230;
-  --oui-color-tertiary: 87 73 94;
-  --oui-color-quaternary: 62 53 69;
+  --oui-color-tertiary: 0 0 0;
+  --oui-color-quaternary: 0 0 0;
 
   --oui-color-danger: 225 60 90;
   --oui-color-danger-light: 245 110 130;
@@ -33,7 +33,7 @@
   --oui-color-fill: 27 20 38;
   --oui-color-fill-active: 37 30 50;
 
-  --oui-color-base-1: 93 70 110;
+  --oui-color-base-1: 0 0 0;
   --oui-color-base-2: 75 56 91;
   --oui-color-base-3: 64 48 81;
   --oui-color-base-4: 52 38 68;
